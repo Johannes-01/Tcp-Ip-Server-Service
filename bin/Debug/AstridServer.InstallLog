@@ -405,3 +405,98 @@ Betroffene Parameter:
    logtoconsole = 
    logfile = C:\Users\jhaick\Documents\GitHub\AstridService\bin\Debug\AstridServer.InstallLog
    assemblypath = C:\Users\jhaick\Documents\GitHub\AstridService\bin\Debug\AstridServer.exe
+Assembly C:\Users\jhaick\Documents\GitHub\AstridService\bin\Debug\AstridServer.exe wird deinstalliert.
+Betroffene Parameter:
+   logtoconsole = 
+   logfile = C:\Users\jhaick\Documents\GitHub\AstridService\bin\Debug\AstridServer.InstallLog
+   assemblypath = C:\Users\jhaick\Documents\GitHub\AstridService\bin\Debug\AstridServer.exe
+Die EventLog-Quelle AstridServerService wird entfernt.
+Der Dienst AstridServerService wird vom System entfernt...
+Dienst AstridServerService wurde vom System entfernt.
+Assembly C:\Users\jhaick\Documents\GitHub\AstridService\bin\Debug\AstridServer.exe wird installiert.
+Betroffene Parameter:
+   logtoconsole = 
+   logfile = C:\Users\jhaick\Documents\GitHub\AstridService\bin\Debug\AstridServer.InstallLog
+   assemblypath = C:\Users\jhaick\Documents\GitHub\AstridService\bin\Debug\AstridServer.exe
+Dienst AstridServerService wird installiert...
+Dienst AstridServerService wurde installiert.
+Die EventLog-Quelle AstridServerService im Protokoll Application wird erstellt...
+Assembly C:\Users\jhaick\Documents\GitHub\AstridService\bin\Debug\AstridServer.exe wird ausgeführt.
+Betroffene Parameter:
+   logtoconsole = 
+   logfile = C:\Users\jhaick\Documents\GitHub\AstridService\bin\Debug\AstridServer.InstallLog
+   assemblypath = C:\Users\jhaick\Documents\GitHub\AstridService\bin\Debug\AstridServer.exe
+Assembly C:\Users\jhaick\Documents\GitHub\AstridService\bin\Debug\AstridServer.exe wird deinstalliert.
+Betroffene Parameter:
+   logtoconsole = 
+   logfile = C:\Users\jhaick\Documents\GitHub\AstridService\bin\Debug\AstridServer.InstallLog
+   assemblypath = C:\Users\jhaick\Documents\GitHub\AstridService\bin\Debug\AstridServer.exe
+Die EventLog-Quelle AstridServerService wird entfernt.
+Der Dienst AstridServerService wird vom System entfernt...
+Dienst AstridServerService wurde vom System entfernt.
+Assembly C:\Users\jhaick\Documents\GitHub\AstridService\bin\Debug\AstridServer.exe wird deinstalliert.
+Betroffene Parameter:
+   logtoconsole = 
+   logfile = C:\Users\jhaick\Documents\GitHub\AstridService\bin\Debug\AstridServer.InstallLog
+   assemblypath = C:\Users\jhaick\Documents\GitHub\AstridService\bin\Debug\AstridServer.exe
+Die EventLog-Quelle AstridServerService wird entfernt.
+Warnung: Die Quelle AstridServerService ist nicht auf dem lokalen Computer registriert.
+Der Dienst AstridServerService wird vom System entfernt...
+Während der Deinstallation des Installers System.ServiceProcess.ServiceInstaller ist eine Ausnahme aufgetreten.
+System.ComponentModel.Win32Exception: Der angegebene Dienst ist kein installierter Dienst
+Während der Deinstallation ist eine Ausnahme aufgetreten. Diese Ausnahme wird ignoriert, und die Deinstallation wird fortgesetzt. Die Anwendung wird jedoch möglicherweise nicht vollständig deinstalliert.
+Assembly C:\Users\jhaick\Documents\GitHub\AstridService\bin\Debug\AstridServer.exe wird installiert.
+Betroffene Parameter:
+   logtoconsole = 
+   logfile = C:\Users\jhaick\Documents\GitHub\AstridService\bin\Debug\AstridServer.InstallLog
+   assemblypath = C:\Users\jhaick\Documents\GitHub\AstridService\bin\Debug\AstridServer.exe
+Dienst AstridServerService wird installiert...
+Dienst AstridServerService wurde installiert.
+Die EventLog-Quelle AstridServerService im Protokoll Application wird erstellt...
+Assembly C:\Users\jhaick\Documents\GitHub\AstridService\bin\Debug\AstridServer.exe wird ausgeführt.
+Betroffene Parameter:
+   logtoconsole = 
+   logfile = C:\Users\jhaick\Documents\GitHub\AstridService\bin\Debug\AstridServer.InstallLog
+   assemblypath = C:\Users\jhaick\Documents\GitHub\AstridService\bin\Debug\AstridServer.exe
+Assembly C:\Users\jhaick\Documents\GitHub\AstridService\bin\Debug\AstridServer.exe wird deinstalliert.
+Betroffene Parameter:
+   logtoconsole = 
+   logfile = C:\Users\jhaick\Documents\GitHub\AstridService\bin\Debug\AstridServer.InstallLog
+   assemblypath = C:\Users\jhaick\Documents\GitHub\AstridService\bin\Debug\AstridServer.exe
+Die EventLog-Quelle AstridServerService wird entfernt.
+Der Dienst AstridServerService wird vom System entfernt...
+Dienst AstridServerService wurde vom System entfernt.
+Assembly C:\Users\jhaick\Documents\GitHub\AstridService\bin\Debug\AstridServer.exe wird installiert.
+Betroffene Parameter:
+   logtoconsole = 
+   logfile = C:\Users\jhaick\Documents\GitHub\AstridService\bin\Debug\AstridServer.InstallLog
+   assemblypath = C:\Users\jhaick\Documents\GitHub\AstridService\bin\Debug\AstridServer.exe
+Dienst AstridServerService wird installiert...
+Dienst AstridServerService wurde installiert.
+Die EventLog-Quelle AstridServerService im Protokoll Application wird erstellt...
+Assembly C:\Users\jhaick\Documents\GitHub\AstridService\bin\Debug\AstridServer.exe wird ausgeführt.
+Betroffene Parameter:
+   logtoconsole = 
+   logfile = C:\Users\jhaick\Documents\GitHub\AstridService\bin\Debug\AstridServer.InstallLog
+   assemblypath = C:\Users\jhaick\Documents\GitHub\AstridService\bin\Debug\AstridServer.exe
+Assembly C:\Users\jhaick\Documents\GitHub\AstridService\bin\Debug\AstridServer.exe wird deinstalliert.
+Betroffene Parameter:
+   logtoconsole = 
+   logfile = C:\Users\jhaick\Documents\GitHub\AstridService\bin\Debug\AstridServer.InstallLog
+   assemblypath = C:\Users\jhaick\Documents\GitHub\AstridService\bin\Debug\AstridServer.exe
+Die EventLog-Quelle AstridServerService wird entfernt.
+Der Dienst AstridServerService wird vom System entfernt...
+Dienst AstridServerService wurde vom System entfernt.
+Assembly C:\Users\jhaick\Documents\GitHub\AstridService\bin\Debug\AstridServer.exe wird installiert.
+Betroffene Parameter:
+   logtoconsole = 
+   logfile = C:\Users\jhaick\Documents\GitHub\AstridService\bin\Debug\AstridServer.InstallLog
+   assemblypath = C:\Users\jhaick\Documents\GitHub\AstridService\bin\Debug\AstridServer.exe
+Dienst AstridServerService wird installiert...
+Dienst AstridServerService wurde installiert.
+Die EventLog-Quelle AstridServerService im Protokoll Application wird erstellt...
+Assembly C:\Users\jhaick\Documents\GitHub\AstridService\bin\Debug\AstridServer.exe wird ausgeführt.
+Betroffene Parameter:
+   logtoconsole = 
+   logfile = C:\Users\jhaick\Documents\GitHub\AstridService\bin\Debug\AstridServer.InstallLog
+   assemblypath = C:\Users\jhaick\Documents\GitHub\AstridService\bin\Debug\AstridServer.exe

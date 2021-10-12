@@ -11,11 +11,9 @@ namespace AstridServer
 {
     class Server
     {
-        static TcpListener ServerSocket;
-        static bool stop;
         static readonly object _lock = new object();
         static readonly Dictionary<int, TcpClient> list_clients = new Dictionary<int, TcpClient>();
-
+        static TcpListener ServerSocket;
 
         public static void start()
         {
@@ -24,24 +22,17 @@ namespace AstridServer
             TcpListener ServerSocket = new TcpListener(IPAddress.Parse(GetLocalIPAddress()), 5000);
             ServerSocket.Start();
 
-            while (!stop)
+            while (true)
             {
                 TcpClient client = ServerSocket.AcceptTcpClient();
                 lock (_lock) list_clients.Add(count, client);
-                Console.WriteLine("Someone connected!!");
+                Console.WriteLine(GetLocalIPAddress() + " connected!");
 
                 Thread t = new Thread(handle_clients);
                 t.Start(count);
                 count++;
             }
             
-        }
-
-        public static void Stop()
-        {
-           stop = true;
-           ServerSocket.Stop();
-
         }
 
         public static void handle_clients(object o)
@@ -64,6 +55,7 @@ namespace AstridServer
 
                         if (byte_count == 0)
                         {
+                            client.Client.Close();
                             break;
                         }
 
@@ -74,16 +66,19 @@ namespace AstridServer
                     else
                     {
                         list_clients.Remove(id);
+                        client.Close();
+                        break;
                     }
                 }
                 catch (Exception ex)
                 {
                     Console.WriteLine(GetLocalIPAddress() + " disconnected!");
+                    break;
                 }
             }
 
             lock (_lock) list_clients.Remove(id);
-            client.Client.Shutdown(SocketShutdown.Both);
+            //client.Client.Shutdown(SocketShutdown.Both);
             client.Close();
         }
 
