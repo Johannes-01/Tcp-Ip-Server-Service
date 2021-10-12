@@ -78,7 +78,7 @@ namespace AstridServer
                 }
                 catch (Exception ex)
                 {
-                    Console.WriteLine(GetLocalIPAddress() + " disconnected. ");
+                    Console.WriteLine(GetLocalIPAddress() + " disconnected!");
                 }
             }
 
