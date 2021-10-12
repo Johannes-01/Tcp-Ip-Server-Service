@@ -198,3 +198,35 @@ Der vorherige Zustand des Ereignisprotokolls für die Quelle AstridServerService
 Während der Rollbackphase des Installers System.Diagnostics.EventLogInstaller ist eine Ausnahme aufgetreten.
 System.Security.SecurityException: Die Quelle wurde nicht gefunden, aber einige oder alle Ereignisprotokolle konnten nicht durchsucht werden. Protokolle, auf die kein Zugriff möglich war: Security.
 Während der Rollbackphase der Installation ist eine Ausnahme aufgetreten. Diese Ausnahme wird ignoriert, und der Rollback wird fortgesetzt. Der ursprüngliche Zustand des Computers wird jedoch möglicherweise nicht vollständig wiederhergestellt, nachdem der Rollback beendet ist.
+Assembly C:\Users\jhaick\Documents\GitHub\AstridService\bin\Debug\AstridServer.exe wird installiert.
+Betroffene Parameter:
+   logtoconsole = 
+   logfile = C:\Users\jhaick\Documents\GitHub\AstridService\bin\Debug\AstridServer.InstallLog
+   assemblypath = C:\Users\jhaick\Documents\GitHub\AstridService\bin\Debug\AstridServer.exe
+Dienst AstridServerService wird installiert...
+Die EventLog-Quelle AstridServerService im Protokoll Application wird erstellt...
+Assembly C:\Users\jhaick\Documents\GitHub\AstridService\bin\Debug\AstridServer.exe wird zurückgesetzt.
+Betroffene Parameter:
+   logtoconsole = 
+   logfile = C:\Users\jhaick\Documents\GitHub\AstridService\bin\Debug\AstridServer.InstallLog
+   assemblypath = C:\Users\jhaick\Documents\GitHub\AstridService\bin\Debug\AstridServer.exe
+Der vorherige Zustand des Ereignisprotokolls für die Quelle AstridServerService wird wiederhergestellt.
+Während der Rollbackphase des Installers System.Diagnostics.EventLogInstaller ist eine Ausnahme aufgetreten.
+System.Security.SecurityException: Die Quelle wurde nicht gefunden, aber einige oder alle Ereignisprotokolle konnten nicht durchsucht werden. Protokolle, auf die kein Zugriff möglich war: Security.
+Während der Rollbackphase der Installation ist eine Ausnahme aufgetreten. Diese Ausnahme wird ignoriert, und der Rollback wird fortgesetzt. Der ursprüngliche Zustand des Computers wird jedoch möglicherweise nicht vollständig wiederhergestellt, nachdem der Rollback beendet ist.
+Assembly C:\Users\jhaick\Documents\GitHub\AstridService\bin\Debug\AstridServer.exe wird installiert.
+Betroffene Parameter:
+   logtoconsole = 
+   logfile = C:\Users\jhaick\Documents\GitHub\AstridService\bin\Debug\AstridServer.InstallLog
+   assemblypath = C:\Users\jhaick\Documents\GitHub\AstridService\bin\Debug\AstridServer.exe
+Dienst AstridServerService wird installiert...
+Die EventLog-Quelle AstridServerService im Protokoll Application wird erstellt...
+Assembly C:\Users\jhaick\Documents\GitHub\AstridService\bin\Debug\AstridServer.exe wird zurückgesetzt.
+Betroffene Parameter:
+   logtoconsole = 
+   logfile = C:\Users\jhaick\Documents\GitHub\AstridService\bin\Debug\AstridServer.InstallLog
+   assemblypath = C:\Users\jhaick\Documents\GitHub\AstridService\bin\Debug\AstridServer.exe
+Der vorherige Zustand des Ereignisprotokolls für die Quelle AstridServerService wird wiederhergestellt.
+Während der Rollbackphase des Installers System.Diagnostics.EventLogInstaller ist eine Ausnahme aufgetreten.
+System.Security.SecurityException: Die Quelle wurde nicht gefunden, aber einige oder alle Ereignisprotokolle konnten nicht durchsucht werden. Protokolle, auf die kein Zugriff möglich war: Security.
+Während der Rollbackphase der Installation ist eine Ausnahme aufgetreten. Diese Ausnahme wird ignoriert, und der Rollback wird fortgesetzt. Der ursprüngliche Zustand des Computers wird jedoch möglicherweise nicht vollständig wiederhergestellt, nachdem der Rollback beendet ist.

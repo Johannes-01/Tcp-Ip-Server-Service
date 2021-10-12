@@ -7,10 +7,11 @@ namespace AstridServer
 {
     public partial class Service1 : ServiceBase
     {
+
+        [DllImport("advapi32.dll", SetLastError = true)]
+        private static extern bool SetServiceStatus(System.IntPtr handle, ref ServiceStatus serviceStatus);
         public Service1()
         {
-            [DllImport("advapi32.dll", SetLastError = true)]
-            private static extern bool SetServiceStatus(System.IntPtr handle, ref ServiceStatus serviceStatus);
             InitializeComponent();
         }
 

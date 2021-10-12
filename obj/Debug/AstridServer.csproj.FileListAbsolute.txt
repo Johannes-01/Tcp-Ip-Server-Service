@@ -17,3 +17,13 @@ C:\Users\jhaick\Downloads\AstridServer\obj\Debug\AstridServer.csproj.GenerateRes
 C:\Users\jhaick\Downloads\AstridServer\obj\Debug\AstridServer.csproj.CoreCompileInputs.cache
 C:\Users\jhaick\Downloads\AstridServer\obj\Debug\AstridServer.exe
 C:\Users\jhaick\Downloads\AstridServer\obj\Debug\AstridServer.pdb
+C:\Users\jhaick\Documents\GitHub\AstridService\obj\Debug\AstridServer.csproj.AssemblyReference.cache
+C:\Users\jhaick\Documents\GitHub\AstridService\obj\Debug\AstridServer.ProjectInstaller.resources
+C:\Users\jhaick\Documents\GitHub\AstridService\obj\Debug\AstridServer.Service1.resources
+C:\Users\jhaick\Documents\GitHub\AstridService\obj\Debug\AstridServer.csproj.GenerateResource.cache
+C:\Users\jhaick\Documents\GitHub\AstridService\obj\Debug\AstridServer.csproj.CoreCompileInputs.cache
+C:\Users\jhaick\Documents\GitHub\AstridService\obj\Debug\AstridServer.exe
+C:\Users\jhaick\Documents\GitHub\AstridService\obj\Debug\AstridServer.pdb
+C:\Users\jhaick\Documents\GitHub\AstridService\bin\Debug\AstridServer.exe.config
+C:\Users\jhaick\Documents\GitHub\AstridService\bin\Debug\AstridServer.exe
+C:\Users\jhaick\Documents\GitHub\AstridService\bin\Debug\AstridServer.pdb
