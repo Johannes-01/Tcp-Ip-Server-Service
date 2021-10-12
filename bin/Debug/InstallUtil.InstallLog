@@ -1,0 +1,17 @@
+﻿
+Eine transaktive Installation wird ausgeführt.
+
+Die Installationsphase wird gestartet.
+Die Protokolldatei enthält den Fortschritt der Assembly C:\Users\jhaick\Downloads\AstridServer\bin\Debug\AstridServer.exe.
+Die Datei befindet sich in C:\Users\jhaick\Downloads\AstridServer\bin\Debug\AstridServer.InstallLog.
+
+Während der Installationsphase ist eine Ausnahme aufgetreten.
+System.Security.SecurityException: Die Quelle wurde nicht gefunden, aber einige oder alle Ereignisprotokolle konnten nicht durchsucht werden. Protokolle, auf die kein Zugriff möglich war: Security.
+
+Die Rollbackphase der Installation wird gestartet.
+Die Protokolldatei enthält den Fortschritt der Assembly C:\Users\jhaick\Downloads\AstridServer\bin\Debug\AstridServer.exe.
+Die Datei befindet sich in C:\Users\jhaick\Downloads\AstridServer\bin\Debug\AstridServer.InstallLog.
+
+Die Rollbackphase wurde erfolgreich abgeschlossen.
+
+Die transaktive Installation ist abgeschlossen.
