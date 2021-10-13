@@ -18,31 +18,31 @@ namespace AstridServer
         protected override void OnStart(string[] args)
         {
            // Update the service state to Start Pending.
-            ServiceStatus serviceStatus = new ServiceStatus();
-            serviceStatus.dwCurrentState = ServiceState.SERVICE_START_PENDING;
-            serviceStatus.dwWaitHint = 100000;
-            SetServiceStatus(this.ServiceHandle, ref serviceStatus);
+            //ServiceStatus serviceStatus = new ServiceStatus();
+            //serviceStatus.dwCurrentState = ServiceState.SERVICE_START_PENDING;
+            //serviceStatus.dwWaitHint = 100000;
+            //SetServiceStatus(this.ServiceHandle, ref serviceStatus);
 
 
             Thread s = new Thread(Server.start);
             s.Start();
 
             // Update the service state to Running.
-            serviceStatus.dwCurrentState = ServiceState.SERVICE_RUNNING;
-            SetServiceStatus(this.ServiceHandle, ref serviceStatus);
+            //serviceStatus.dwCurrentState = ServiceState.SERVICE_RUNNING;
+            //SetServiceStatus(this.ServiceHandle, ref serviceStatus);
         }
 
         protected override void OnStop()
         {
             // Update the service state to Stop Pending.
-            ServiceStatus serviceStatus = new ServiceStatus();
-            serviceStatus.dwCurrentState = ServiceState.SERVICE_STOP_PENDING;
-            serviceStatus.dwWaitHint = 100000;
-            SetServiceStatus(this.ServiceHandle, ref serviceStatus);
+            //ServiceStatus serviceStatus = new ServiceStatus();
+            //serviceStatus.dwCurrentState = ServiceState.SERVICE_STOP_PENDING;
+            //serviceStatus.dwWaitHint = 100000;
+            //SetServiceStatus(this.ServiceHandle, ref serviceStatus);
 
-            // Update the service state to Stopped.
-            serviceStatus.dwCurrentState = ServiceState.SERVICE_STOPPED;
-            SetServiceStatus(this.ServiceHandle, ref serviceStatus);
+            //// Update the service state to Stopped.
+            //serviceStatus.dwCurrentState = ServiceState.SERVICE_STOPPED;
+            //SetServiceStatus(this.ServiceHandle, ref serviceStatus);
 
             System.Console.WriteLine("Service stop");
         }

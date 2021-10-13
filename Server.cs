@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Net;
 using System.Net.Sockets;
@@ -13,18 +14,20 @@ namespace AstridServer
     {
         static readonly object _lock = new object();
         static readonly Dictionary<int, TcpClient> list_clients = new Dictionary<int, TcpClient>();
-        static TcpListener ServerSocket;
+        static TcpListener tcpListener;
 
         public static void start()
         {
+            Debugger.Launch();
+
             int count = 1;
 
-            TcpListener ServerSocket = new TcpListener(IPAddress.Parse(GetLocalIPAddress()), 5000);
-            ServerSocket.Start();
+            TcpListener tcpListener = new TcpListener(IPAddress.Parse(GetLocalIPAddress()), 5000);
+            tcpListener.Start();
 
             while (true)
             {
-                TcpClient client = ServerSocket.AcceptTcpClient();
+                TcpClient client = tcpListener.AcceptTcpClient();
                 lock (_lock) list_clients.Add(count, client);
                 Console.WriteLine(GetLocalIPAddress() + " connected!");
 
@@ -32,7 +35,7 @@ namespace AstridServer
                 t.Start(count);
                 count++;
             }
-            
+
         }
 
         public static void handle_clients(object o)
