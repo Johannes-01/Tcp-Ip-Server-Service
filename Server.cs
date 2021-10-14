@@ -18,8 +18,6 @@ namespace AstridServer
 
         public static void start()
         {
-            Debugger.Launch();
-
             int count = 1;
 
             TcpListener tcpListener = new TcpListener(IPAddress.Parse(GetLocalIPAddress()), 5000);
